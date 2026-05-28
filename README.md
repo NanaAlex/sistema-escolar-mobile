@@ -62,6 +62,6 @@ src/
 | Variável              | Descrição         | Padrão                  |
 |-----------------------|-------------------|-------------------------|
 | NEXT_PUBLIC_API_URL   | URL da API back   | http://localhost:3333   |
-=======
+
 # sistema-escolar-mobile
->>>>>>> ffd27b41bbc4a3574c2e264467e75c779a6eef30
+
