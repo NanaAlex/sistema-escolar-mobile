@@ -16,7 +16,6 @@ Front-end mobile construído com **Next.js** + **TypeScript**, com layout respon
 
 ### Instalação
 
-\`\`\`bash
 # Clone o repositório
 git clone https://github.com/seu-usuario/mobile.git
 cd mobile
@@ -30,31 +29,24 @@ cp .env.example .env.local
 
 # Rode em desenvolvimento
 npm run dev
-\`\`\`
 
 Acesse [http://localhost:3001](http://localhost:3001)
 
 > 💡 Para rodar junto com o web, use uma porta diferente:
-> \`\`\`bash
 > npm run dev -- -p 3001
-> \`\`\`
 
 ### Build para produção
 
-\`\`\`bash
 npm run build
 npm start
-\`\`\`
 
 ## Estrutura de pastas
 
-\`\`\`
 src/
 └── app/
     ├── layout.tsx    # Layout raiz com viewport mobile
     ├── viewport.ts   # Configuração de viewport responsivo
     └── page.tsx      # Página inicial
-\`\`\`
 
 ## Variáveis de ambiente
 
