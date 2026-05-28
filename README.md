@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # 📱 Mobile
 
 Front-end mobile construído com **Next.js** + **TypeScript**, com layout responsivo otimizado para dispositivos móveis.
