@@ -16,9 +16,9 @@ Front-end mobile construído com **Next.js** + **TypeScript**, com layout respon
 
 ### Instalação
 
-\`\`\`bash
+```bash
 # Clone o repositório
-git clone https://github.com/seu-usuario/mobile.git
+git clone https://github.com/NanaAlex/sistema-escolar-mobile.git
 cd mobile
 
 # Instale as dependências
@@ -29,32 +29,27 @@ cp .env.example .env.local
 # Edite o arquivo .env.local com a URL da sua API
 
 # Rode em desenvolvimento
-npm run dev
-\`\`\`
+npm run dev -- -p 3001
+```
 
 Acesse [http://localhost:3001](http://localhost:3001)
 
-> 💡 Para rodar junto com o web, use uma porta diferente:
-> \`\`\`bash
-> npm run dev -- -p 3001
-> \`\`\`
-
 ### Build para produção
 
-\`\`\`bash
+```bash
 npm run build
 npm start
-\`\`\`
+```
 
 ## Estrutura de pastas
 
-\`\`\`
+```
 src/
 └── app/
     ├── layout.tsx    # Layout raiz com viewport mobile
     ├── viewport.ts   # Configuração de viewport responsivo
     └── page.tsx      # Página inicial
-\`\`\`
+```
 
 ## Variáveis de ambiente
 
