@@ -67,8 +67,8 @@ Acontece quando o repositório no GitHub já tem arquivos (ex: README criado pel
 
 ```bash
 git pull origin main --allow-unrelated-histories
-# Vai abrir o editor Vim — digite :wq e pressione Enter para sair
-git push -u origin main
+# Vai abrir o editor Vim — digite :wq e pressione Enter para sair ou ctrl + c
+git push -u origin nome_da_branch
 ```
 
 ### Subir alterações do zero novamente
@@ -84,6 +84,6 @@ git push
 ```bash
 git pull origin main --allow-unrelated-histories
 git add .
-git commit -m "..."
+git commit -m "sua mensagem aqui"
 git push
 ```
