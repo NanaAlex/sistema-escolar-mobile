@@ -56,3 +56,42 @@ src/
 | Variável              | Descrição         | Padrão                  |
 |-----------------------|-------------------|-------------------------|
 | NEXT_PUBLIC_API_URL   | URL da API back   | http://localhost:3333   |
+
+---
+
+## 🔧 Solução de problemas
+
+### Erro ao rodar `npm run dev`
+
+Limpa o cache e reinstala tudo do zero:
+
+```bash
+# Para o servidor (CTRL + C) e rode:
+rm -rf .next
+rm -rf node_modules
+npm install
+npm run dev -- -p 3001
+```
+
+### Erro de porta em uso
+
+Se a porta 3001 já estiver ocupada:
+
+```bash
+npm run dev -- -p 3002
+```
+
+### Erro de módulo não encontrado
+
+```bash
+rm -rf node_modules
+npm install
+```
+
+### Limpar tudo e começar do zero
+
+```bash
+rm -rf .next node_modules
+npm install
+npm run dev -- -p 3001
+```
