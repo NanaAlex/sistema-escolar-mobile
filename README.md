@@ -59,39 +59,31 @@ src/
 
 ---
 
-## 🔧 Solução de problemas
+## 🔧 Solução de problemas no Git
 
-### Erro ao rodar `npm run dev`
+### Erro ao fazer `git push` (rejected)
 
-Limpa o cache e reinstala tudo do zero:
+Acontece quando o repositório no GitHub já tem arquivos (ex: README criado pelo GitHub).
 
 ```bash
-# Para o servidor (CTRL + C) e rode:
-rm -rf .next
-rm -rf node_modules
-npm install
-npm run dev -- -p 3001
+git pull origin main --allow-unrelated-histories
+# Vai abrir o editor Vim — digite :wq e pressione Enter para sair
+git push -u origin main
 ```
 
-### Erro de porta em uso
-
-Se a porta 3001 já estiver ocupada:
+### Subir alterações do zero novamente
 
 ```bash
-npm run dev -- -p 3002
+git add .
+git commit -m "sua mensagem aqui"
+git push
 ```
 
-### Erro de módulo não encontrado
+### Se o push rejeitar de novo
 
 ```bash
-rm -rf node_modules
-npm install
-```
-
-### Limpar tudo e começar do zero
-
-```bash
-rm -rf .next node_modules
-npm install
-npm run dev -- -p 3001
+git pull origin main --allow-unrelated-histories
+git add .
+git commit -m "..."
+git push
 ```
