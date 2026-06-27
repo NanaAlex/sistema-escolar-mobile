@@ -2,6 +2,9 @@
 
 Front-end mobile construído com **Next.js** + **TypeScript**, com layout responsivo otimizado para dispositivos móveis.
 
+# Relatório Jira e Diagramas
+https://drive.google.com/drive/folders/11swJExn4jfPuFHDg00saQOlSUQaMkUy3?usp=drive_link
+
 ## Tecnologias
 
 - [Next.js 14](https://nextjs.org/)
